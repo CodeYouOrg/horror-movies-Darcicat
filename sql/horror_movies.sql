@@ -4,9 +4,9 @@
 --Note that the column names in the resulting file have been changed from 
 --"id", "name", and "imdb_rating" to "Movie_ID", "Movie_Title", and "Rating".
 
-SELECT id as MOVIE_ID, 
-name as Movie_Title, 
-imdb_rating as Rating 
+SELECT id as 'MOVIE_ID', 
+name as 'Movie_Title', 
+imdb_rating as 'Rating' 
 FROM movies 
 WHERE year <= 1985
 AND genre = 'horror'
