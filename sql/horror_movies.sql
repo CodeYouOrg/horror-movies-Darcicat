@@ -4,7 +4,7 @@
 --Note that the column names in the resulting file have been changed from 
 --"id", "name", and "imdb_rating" to "Movie_ID", "Movie_Title", and "Rating".
 
-SELECT id as 'MOVIE_ID', 
+SELECT id as 'Movie_ID', 
 name as 'Movie_Title', 
 imdb_rating as 'Rating' 
 FROM movies 
